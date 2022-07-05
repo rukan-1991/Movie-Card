@@ -77,6 +77,10 @@ body {
     text-align: center;
   }
 
+  #Tobe {
+    color: crimson;
+  }
+
   .card-details a {
     text-decoration: none;
     background-color: rgb(0, 130, 216);
@@ -91,4 +95,18 @@ body {
     padding: 3px 0;
     margin-bottom: 30px;
     transition: 0.3s;
+  }
+
+  .card-details a:hover {
+    background-color: rgb(214, 0, 0);
+    color: white;
+    letter-spacing: 10px;
+  }
+  
+  .card-details a:active {
+    background-color: rgba(0, 174, 214, 0.8);
+  }
+  
+  .fa-youtube {
+    margin-right: 10px;
   }
