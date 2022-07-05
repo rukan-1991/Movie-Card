@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color:lightskyblue;
+    color: #333;
+}
+
+.card-wrapper {
+    width: 400px;
+    background-color:aliceblue;
+    margin: 100px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 25px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-image {
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .card-image img {
+    width: 400px;
+  }
+
+  .card-image:hover img {
+    filter:sepia(1);
+  }
+
+  #imdb-rating {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 130, 216);
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 0 0 10px 0;
+  }
+  
+  #rotten-rating {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:crimson;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 0 0 0 10px;
+  }
+
+  .card-details h1 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 130, 216);
+  }
+
+  .card-details p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-bottom: 15px;
+  }
+  .card-details p:nth-child(2) {
+    color:crimson;
+    text-align: center;
+  }
+
+  .card-details a {
+    text-decoration: none;
+    background-color: rgb(0, 130, 216);
+    color:rgb(253, 215, 0);
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    padding: 3px 0;
+    margin-bottom: 30px;
+    transition: 0.3s;
+  }
